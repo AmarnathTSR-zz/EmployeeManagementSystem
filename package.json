@@ -1,0 +1,40 @@
+{
+  "name": "ems",
+  "version": "1.0.0",
+  "description": "Employee Management System using MERN Stack (reactJS, reduxJS, expressJS, nodeJS and mongoDB)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmarnathTSR/EmployeeManagementSystem.git"
+  },
+  "keywords": [
+    "humanresource",
+    "HR",
+    "EMPLOYEE",
+    "MANAGEMENT",
+    "SYSTEM"
+  ],
+  "author": "Amarnath TSR",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AmarnathTSR/EmployeeManagementSystem/issues"
+  },
+  "homepage": "https://github.com/AmarnathTSR/EmployeeManagementSystem#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.3",
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
