@@ -58,6 +58,16 @@ app.use("/api/user", users);
 app.use("/api/profile", profile);
 app.use("/api/transfer", transfer);
 
+// Server static assets if in production
+if (process.env.NODE_ENV === "production") {
+  // Set static folder
+  app.use(express.static("client/build"));
+
+  app.get("*", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
+  });
+}
+
 //  Assigning the port eg. http://localhost:5000 for local environment for heroku we use process.env.port
 const port = process.env.PORT || 5000;
 
