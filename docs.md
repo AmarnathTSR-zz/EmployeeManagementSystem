@@ -17,3 +17,27 @@ Dependancies
 DevDependencies
 
 - nodemon
+
+User Fields
+
+name
+username
+password
+role
+
+Profile Field
+
+currentbranch
+department
+designation
+salary
+dateofjoining
+dateofbirth
+gender
+maritalstatus
+bloodgroup
+phonenumber
+address
+casualleave
+medicalleave
+absents
